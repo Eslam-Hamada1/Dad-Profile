@@ -42,14 +42,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-.phone-link {
+.phone-link,
+.phone-link:hover,
+.phone-link:focus,
+.phone-link:visited{
   color: white;
   text-decoration: none;
-}
-
-.phone-link:hover,
-.phone-link:focus {
-  text-decoration: underline; /* optional hover effect */
 }
 
 .social-links {
