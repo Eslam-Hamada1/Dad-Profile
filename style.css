@@ -1,6 +1,6 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #6A11CB, #2575FC);
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(https://i.imgur.com/JmNW9NJ.jpeg);
   color: white;
   min-height: 100vh;
   display: flex;
@@ -13,12 +13,12 @@ body {
 a i {
   font-size: 24px;
   margin: 10px;
-  color: #0601AF;
+  color: #413bff;
   transition: transform 0.3s;
 }
 
 a.facebook:hover i {
-  color: #0800FF;
+  color: #413bff;
   transform: scale(1.2);
 }
 
@@ -92,20 +92,36 @@ a.telegram:hover i {
 }
 
 .profile-card {
-  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   padding: 30px 20px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  background-color: #21201C;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .profile-img {
   width: 150px;
   height: 230px;
-  border-radius: 10%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: none;
+  padding: 20px 0 0 0;
+}
+
+.position-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.position-text {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 h1 {
@@ -155,11 +171,6 @@ h1 {
   justify-items: center;
 }
 
-.social-links a:nth-child(7) {
-  grid-column: span 3;
-  justify-self: center;
-}
-
 .social-links a {
   background-color: #ffffff22;
   color: white;
@@ -183,8 +194,12 @@ h1 {
     align-items: flex-start;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
   .profile-card {
-    padding: 15px;
+    padding: 10;
     margin: 0;
   }
 
@@ -215,8 +230,12 @@ h1 {
     align-items: flex-start;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
   .profile-card {
-    padding: 15px;
+    padding: 10;
     margin: 0;
   }
 
